@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint CombineExtensions.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'CombineExtensions'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CombineExtensions.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Extensions adding the Combine missing parts.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  Extensions adding the Combine missing parts.
+  DESC
 
   s.homepage         = 'https://github.com/bitomule/CombineExtensions'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bitomule' => 'bitomule@gmail.com' }
   s.source           = { :git => 'https://github.com/bitomule/CombineExtensions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/bitomule'
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CombineExtensions/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CombineExtensions' => ['CombineExtensions/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Sources/Classes/**/*'
+  s.frameworks = 'Combine'
 end
