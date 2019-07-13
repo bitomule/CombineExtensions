@@ -1,0 +1,16 @@
+PODS:
+  - CombineExtensions (0.1.0)
+
+DEPENDENCIES:
+  - CombineExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  CombineExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CombineExtensions: b5113989d451434f6ddf0ad9a14e716a40238214
+
+PODFILE CHECKSUM: e68984749d5aedd2d630b8fc325db98e4b866cd0
+
+COCOAPODS: 1.7.2

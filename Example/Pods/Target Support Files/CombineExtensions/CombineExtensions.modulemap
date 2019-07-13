@@ -1,0 +1,6 @@
+framework module CombineExtensions {
+  umbrella header "CombineExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
