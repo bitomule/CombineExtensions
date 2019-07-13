@@ -1,4 +1,5 @@
 import Combine
+import class Foundation.NSRecursiveLock
 
 final class ReplaySubscription<Input, Failure: Error>: Subscription {
     private var subscriber: AnySubscriber<Input, Failure>?
