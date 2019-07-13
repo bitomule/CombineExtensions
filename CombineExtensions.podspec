@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Extensions adding the Combine missing parts.'
 
   s.description      = <<-DESC
-  Extensions adding the Combine missing parts.
+  Add the missing features to Combine like DisposeBag or ReplaySubject.
   DESC
 
   s.homepage         = 'https://github.com/bitomule/CombineExtensions'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/bitomule'
 
   s.ios.deployment_target = '13.0'
+  s.swift_versions = "5.0"
 
   s.source_files = 'CombineExtensions/Classes/**/*'
   s.frameworks = 'Combine'
