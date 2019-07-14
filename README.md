@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'CombineExtensions'
 ```
 
+## Todo
+
+* Carthage
+* SPM
+* ~Test~
+* Add support for all the Combine supported platforms
+* Add example app
+* Add docs
+
 ## Author
 
 bitomule, bitomule@gmail.com
