@@ -1,4 +1,4 @@
-# CombineExtensions
+# CombineExtensions (WIP)
 
 [![CI Status](https://img.shields.io/travis/bitomule/CombineExtensions.svg?style=flat)](https://travis-ci.org/bitomule/CombineExtensions)
 [![Version](https://img.shields.io/cocoapods/v/CombineExtensions.svg?style=flat)](https://cocoapods.org/pods/CombineExtensions)
