@@ -1,3 +1,10 @@
+//
+//  ReplaySubject
+//
+//  Check the LICENSE file for details
+//  Created by David Collado
+//
+
 import Combine
 import class Foundation.NSRecursiveLock
 

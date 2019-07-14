@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'CombineExtensions_Example' do
+  platform :ios
   pod 'CombineExtensions', :path => '../'
 
   target 'CombineExtensions_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

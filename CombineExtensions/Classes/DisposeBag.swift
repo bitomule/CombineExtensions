@@ -1,5 +1,5 @@
 //
-//  CombineDisposeBag
+//  DisposeBag
 //
 //  Check the LICENSE file for details
 //  Created by David Collado
