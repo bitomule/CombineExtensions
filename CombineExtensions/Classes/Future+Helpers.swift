@@ -14,4 +14,11 @@ public extension Future {
     static func just(_ value: Output) -> Future<Output,Failure> {
         return Future<Output, Failure> { promise in return promise(.success(value)) }
     }
+
+    /// Create a new Future with an error
+    /// Future<Int, Error>.error(MyError())
+    /// Returns a Future<Output,Failure>
+    static func error(_ error: Failure) -> Future<Output,Failure> {
+        return Future<Output, Failure> { promise in return promise(.failure(error)) }
+    }
 }

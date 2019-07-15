@@ -43,13 +43,13 @@
 
 /* Begin PBXFileReference section */
 		03CCAE0ACEED8864DA16BE424B86085E /* Future+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Future+Helpers.swift"; path = "CombineExtensions/Classes/Future+Helpers.swift"; sourceTree = "<group>"; };
-		074154B4A2B3991FA72D6ED40E0EC4B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		074154B4A2B3991FA72D6ED40E0EC4B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		084A538F8CACD6F8D152C855C1F740A4 /* CombineExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineExtensions.modulemap; sourceTree = "<group>"; };
-		0CE2D035EEDBFD21E3132F5F66226866 /* CombineExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CE2D035EEDBFD21E3132F5F66226866 /* CombineExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CombineExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		10D4A3EAB886269C25D72C1E88EDE114 /* Pods-CombineExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
-		15033B5FE80F06652ECE870CD1948948 /* CombineExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CombineExtensions.framework; path = CombineExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15033B5FE80F06652ECE870CD1948948 /* CombineExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB04AFA179F4ECCF954A4DF07D6FA87 /* Pods-CombineExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		267132E8367B0B360EDD2857DD8A41BA /* Pods_CombineExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineExtensions_Example.framework; path = "Pods-CombineExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267132E8367B0B360EDD2857DD8A41BA /* Pods_CombineExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29031B265D949D984C748EA2C89A441A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
 		2966AB4BBE18DA04FABAC974532AD478 /* Pods-CombineExtensions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineExtensions_Example-Info.plist"; sourceTree = "<group>"; };
 		37438E7428A5A8AEB79D3E3066A28D44 /* Pods-CombineExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -62,18 +62,18 @@
 		82C93689BE20A9C35A2FD95F2202EF3A /* CombineExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineExtensions-umbrella.h"; sourceTree = "<group>"; };
 		87452CF7A5A5CDA5A3321CBA60AFDAEF /* Pods-CombineExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
 		94E28DBAB3A8A8641E96A7C9827A397F /* CombineExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineExtensions-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFEF4E508E15B3A77B6F46DBABC095B /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = CombineExtensions/Classes/Completable.swift; sourceTree = "<group>"; };
 		A7971D3D46132B63CFBC6FE329E662BD /* Pods-CombineExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineExtensions_Example-dummy.m"; sourceTree = "<group>"; };
 		B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B3C65AFC2B8F0EC728DBAB453DA2CCC4 /* Pods-CombineExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC949D9BDD8B2EC934BEDA692CEF4C67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC949D9BDD8B2EC934BEDA692CEF4C67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C15C02B4EFF515AE5F287AC6A40B2D66 /* CombineExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineExtensions-dummy.m"; sourceTree = "<group>"; };
 		C73145DC73E34A4D8BB0898A938EFD3B /* Pods-CombineExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA7813E0870D20D3AC157EA48AD9651C /* Pods-CombineExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CombineExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E0E9C520CCC7DB6CB182E2AFA6DC80A4 /* Pods-CombineExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E731FAAF93F7547D17578043DAA66F28 /* Pods-CombineExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9EE867D5A5C95ABA2691C7A5388EF4C /* Pods_CombineExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineExtensions_Tests.framework; path = "Pods-CombineExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EE867D5A5C95ABA2691C7A5388EF4C /* Pods_CombineExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB25C8F64F95002BB51170013F7209BB /* Pods-CombineExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineExtensions_Example.modulemap"; sourceTree = "<group>"; };
 		EEFC8C27181FC5753408216E9F72B517 /* Pods-CombineExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F49987FF1D7923277864377767D1DFBE /* Pods-CombineExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -743,8 +743,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
