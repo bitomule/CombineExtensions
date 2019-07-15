@@ -14,7 +14,7 @@ class DisposeBagTests: XCTestCase {
         let subject = PassthroughSubject<Int ,Error>()
         _ = subject.sink(receiveValue: { value in
             sutExpectation.fulfill()
-        }).disposedBy(disposebag!)
+        }).disposed(by: disposebag!)
         /// When DisposeBag is released
         disposebag = nil
         subject.send(1)
@@ -35,7 +35,7 @@ class DisposeBagTests: XCTestCase {
             /// A value should be received
             XCTAssertEqual(values.count, 1)
             sutExpectation.fulfill()
-        }).disposedBy(disposebag)
+        }).disposed(by: disposebag)
         subject.send(1)
         waitForExpectations(timeout: 0.1, handler: nil)
     }
