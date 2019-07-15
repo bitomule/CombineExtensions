@@ -70,7 +70,7 @@ public extension Cancellable {
     /// Adds `self` to `bag`
     ///
     /// - parameter bag: `DisposeBag` to add `self` to.
-    func disposedBy(_ bag: DisposeBag) {
+    func disposed(by bag: DisposeBag) {
         bag.insert(self)
     }
 }
