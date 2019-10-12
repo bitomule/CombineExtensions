@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CombineExtensions'
-  s.version          = '0.2.1'
+  s.version          = '0.4.1'
   s.summary          = 'Extensions adding the Combine missing parts.'
 
   s.description      = <<-DESC
