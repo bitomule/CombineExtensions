@@ -12,9 +12,9 @@ class DisposeBagTests: XCTestCase {
         var disposebag: DisposeBag? = DisposeBag()
         /// A publisher
         let subject = PassthroughSubject<Int ,Error>()
-        _ = subject.sink(receiveValue: { value in
+        subject.sink(receiveCompletion: { completion in  }) { value in
             sutExpectation.fulfill()
-        }).disposed(by: disposebag!)
+        }.disposed(by: disposebag!)
         /// When DisposeBag is released
         disposebag = nil
         subject.send(1)
@@ -30,12 +30,12 @@ class DisposeBagTests: XCTestCase {
         let subject = PassthroughSubject<Int ,Error>()
         var values = [Int]()
         /// And a subscription disposed by the DisposeBag
-        _ = subject.sink(receiveValue: { value in
+        subject.sink(receiveCompletion: { _ in }) { value in
             values.append(value)
             /// A value should be received
             XCTAssertEqual(values.count, 1)
             sutExpectation.fulfill()
-        }).disposed(by: disposebag)
+        }.disposed(by: disposebag)
         subject.send(1)
         waitForExpectations(timeout: 0.1, handler: nil)
     }

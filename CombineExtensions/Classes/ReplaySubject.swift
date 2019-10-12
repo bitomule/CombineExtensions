@@ -83,4 +83,9 @@ public final class ReplaySubject<Output,Failure>: Subject where Failure : Error 
         subscriptions.forEach { $0.receive(completion) }
         subscriptions.removeAll()
     }
+
+    public func send(subscription: Subscription) {
+        guard let sub = subscription as? ReplaySubscription<Output,Failure> else { return }
+        addSubscription(sub)
+    }
 }
