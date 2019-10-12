@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		413894E422DA60CC0085D433 /* DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413894E322DA60CC0085D433 /* DisposeBagTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,7 +31,6 @@
 		13887425E79A67665F97434E /* CombineExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CombineExtensions.podspec; path = ../CombineExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		39547B90F60DF09D7AAD2FBD /* Pods-CombineExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExtensions_Example.debug.xcconfig"; path = "Target Support Files/Pods-CombineExtensions_Example/Pods-CombineExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3FE414BB0937578A3C1FEFC3 /* Pods-CombineExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExtensions_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CombineExtensions_Tests/Pods-CombineExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		413894E322DA60CC0085D433 /* DisposeBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBagTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CombineExtensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExtensions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* ReplaySubjectTets.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
-				413894E322DA60CC0085D433 /* DisposeBagTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -343,7 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413894E422DA60CC0085D433 /* DisposeBagTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* ReplaySubjectTets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

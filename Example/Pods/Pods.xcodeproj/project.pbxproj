@@ -19,7 +19,6 @@
 		AF66B7D842A903B6BC9EE8A896C5D2F1 /* CombineExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C93689BE20A9C35A2FD95F2202EF3A /* CombineExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B04D4DD6CFEB28B435AB5FD05D2C02EB /* Pods-CombineExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49987FF1D7923277864377767D1DFBE /* Pods-CombineExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0988034242039FD4B89F5CD30CAD044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */; };
-		DA443439DE6864FB4ECB8115F2736DAC /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EC2856A819D55F5BCBF735A89D5909 /* DisposeBag.swift */; };
 		EDC4FDF6CFD2A84E15861AE53D98168B /* CombineExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15C02B4EFF515AE5F287AC6A40B2D66 /* CombineExtensions-dummy.m */; };
 		F7E570B0BCF04A28A4742AC36DA78A02 /* Pods-CombineExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7971D3D46132B63CFBC6FE329E662BD /* Pods-CombineExtensions_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -57,7 +56,6 @@
 		45291B64E448E8064F57754D9F4406B6 /* Pods-CombineExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A4FE0AA531B1B36BA8069ED92A84C30 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = CombineExtensions/Classes/ReplaySubject.swift; sourceTree = "<group>"; };
 		57DCFB6823BBE4E32325A108152F7A5D /* Pods-CombineExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineExtensions_Tests.modulemap"; sourceTree = "<group>"; };
-		57EC2856A819D55F5BCBF735A89D5909 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = CombineExtensions/Classes/DisposeBag.swift; sourceTree = "<group>"; };
 		5EC01C07205A6065FFD9CDB0F801B085 /* CombineExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CombineExtensions-Info.plist"; sourceTree = "<group>"; };
 		82C93689BE20A9C35A2FD95F2202EF3A /* CombineExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineExtensions-umbrella.h"; sourceTree = "<group>"; };
 		87452CF7A5A5CDA5A3321CBA60AFDAEF /* Pods-CombineExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				9FFEF4E508E15B3A77B6F46DBABC095B /* Completable.swift */,
-				57EC2856A819D55F5BCBF735A89D5909 /* DisposeBag.swift */,
 				03CCAE0ACEED8864DA16BE424B86085E /* Future+Helpers.swift */,
 				F7D647377DDD39763E385BAE964E5EA2 /* Queue.swift */,
 				4A4FE0AA531B1B36BA8069ED92A84C30 /* ReplaySubject.swift */,
@@ -390,7 +387,6 @@
 			files = (
 				EDC4FDF6CFD2A84E15861AE53D98168B /* CombineExtensions-dummy.m in Sources */,
 				3741294C69720E55F9311C704CA5FF79 /* Completable.swift in Sources */,
-				DA443439DE6864FB4ECB8115F2736DAC /* DisposeBag.swift in Sources */,
 				259BBA4B98EAF5AB2CFBDC5C3A1D1D3D /* Future+Helpers.swift in Sources */,
 				050E3640C31152D61EE96D94FDFA8044 /* Queue.swift in Sources */,
 				9E95C49A39C58B7BD18DDEB2A7235042 /* ReplaySubject.swift in Sources */,
